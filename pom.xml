@@ -2,11 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>uk.gov.dvla.f2d</groupId>
-  <artifactId>f2d-session-management</artifactId>
-  <version>1.12.0.1-SNAPSHOT</version>
+  <artifactId>play-http-session</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>f2d-session-management</name>
+  <name>play-http-session</name>
   <url>http://maven.apache.org</url>
 
   <parent>
@@ -16,7 +16,7 @@
   </parent>
 
   <scm>
-    <developerConnection>scm:git:ssh://git@stash0001-01.b428.dvla.gov.uk:7999/f2ddev/f2d-session-management.git</developerConnection>
+    <developerConnection>scm:git:https://github.com/jamesbishop/play-http-session.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
