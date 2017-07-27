@@ -1,4 +1,4 @@
-package uk.gov.dvla.f2d.web.session;
+package uk.co.blackcell.web.session;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

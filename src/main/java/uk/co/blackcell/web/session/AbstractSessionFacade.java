@@ -1,12 +1,12 @@
-package uk.gov.dvla.f2d.web.session;
+package uk.co.blackcell.web.session;
 
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import redis.clients.jedis.*;
 import redis.clients.util.Pool;
-import uk.gov.dvla.f2d.web.session.exceptions.SessionAuthenticationFailedException;
-import uk.gov.dvla.f2d.web.session.exceptions.SessionTechnicalException;
+import uk.co.blackcell.web.session.exceptions.SessionAuthenticationFailedException;
+import uk.co.blackcell.web.session.exceptions.SessionTechnicalException;
 
 import java.util.Optional;
 

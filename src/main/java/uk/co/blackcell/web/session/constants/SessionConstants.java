@@ -1,4 +1,4 @@
-package uk.gov.dvla.f2d.web.session.constants;
+package uk.co.blackcell.web.session.constants;
 
 public final class SessionConstants
 {

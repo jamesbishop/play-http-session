@@ -1,8 +1,8 @@
-package uk.gov.dvla.f2d.web.session;
+package uk.co.blackcell.web.session;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import uk.gov.dvla.f2d.web.session.exceptions.SessionAuthenticationFailedException;
+import uk.co.blackcell.web.session.exceptions.SessionAuthenticationFailedException;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
@@ -20,7 +20,7 @@ import java.security.spec.PKCS8EncodedKeySpec;
 import java.util.Base64;
 import java.util.Optional;
 
-import static uk.gov.dvla.f2d.web.session.constants.SessionConstants.*;
+import static uk.co.blackcell.web.session.constants.SessionConstants.*;
 
 public final class SessionAuthenticator
 {

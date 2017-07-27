@@ -1,11 +1,8 @@
-package uk.gov.dvla.f2d;
+package uk.co.blackcell.web.session;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import uk.gov.dvla.f2d.web.session.SessionManager;
-
-import java.util.Optional;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;

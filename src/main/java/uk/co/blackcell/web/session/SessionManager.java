@@ -6,12 +6,12 @@
  * @author James Bishop
  * @version 1.0
  */
-package uk.gov.dvla.f2d.web.session;
+package uk.co.blackcell.web.session;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import uk.gov.dvla.f2d.web.session.exceptions.SessionNotFoundException;
-import uk.gov.dvla.f2d.web.session.exceptions.SessionNotPersistedException;
+import uk.co.blackcell.web.session.exceptions.SessionNotFoundException;
+import uk.co.blackcell.web.session.exceptions.SessionNotPersistedException;
 
 import java.util.Optional;
 import java.util.UUID;

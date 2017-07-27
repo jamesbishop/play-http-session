@@ -5,19 +5,19 @@
  * @author James Bishop
  * @version 1.0
  */
-package uk.gov.dvla.f2d.web.session;
+package uk.co.blackcell.web.session;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import redis.clients.jedis.Jedis;
-import uk.gov.dvla.f2d.web.session.exceptions.SessionAuthenticationFailedException;
-import uk.gov.dvla.f2d.web.session.exceptions.SessionNotFoundException;
-import uk.gov.dvla.f2d.web.session.exceptions.SessionNotPersistedException;
-import uk.gov.dvla.f2d.web.session.exceptions.SessionTechnicalException;
+import uk.co.blackcell.web.session.exceptions.SessionAuthenticationFailedException;
+import uk.co.blackcell.web.session.exceptions.SessionNotFoundException;
+import uk.co.blackcell.web.session.exceptions.SessionNotPersistedException;
+import uk.co.blackcell.web.session.exceptions.SessionTechnicalException;
 
 import java.util.Optional;
 
-import static uk.gov.dvla.f2d.web.session.constants.SessionConstants.SESSION_NOT_FOUND_ERROR;
+import static uk.co.blackcell.web.session.constants.SessionConstants.SESSION_NOT_FOUND_ERROR;
 
 class RedisSessionManagerNonEncryptedImpl extends AbstractSessionFacade implements ISessionFacade
 {

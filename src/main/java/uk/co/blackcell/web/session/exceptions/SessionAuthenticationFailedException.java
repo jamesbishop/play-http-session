@@ -1,4 +1,4 @@
-package uk.gov.dvla.f2d.web.session.exceptions;
+package uk.co.blackcell.web.session.exceptions;
 
 public final class SessionAuthenticationFailedException extends Exception
 {

@@ -6,17 +6,17 @@
  * @author James Bishop
  * @version 1.0
  */
-package uk.gov.dvla.f2d.web.session;
+package uk.co.blackcell.web.session;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import redis.clients.jedis.Jedis;
 import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;
-import uk.gov.dvla.f2d.web.session.exceptions.SessionAuthenticationFailedException;
-import uk.gov.dvla.f2d.web.session.exceptions.SessionNotFoundException;
-import uk.gov.dvla.f2d.web.session.exceptions.SessionNotPersistedException;
-import uk.gov.dvla.f2d.web.session.exceptions.SessionTechnicalException;
+import uk.co.blackcell.web.session.exceptions.SessionAuthenticationFailedException;
+import uk.co.blackcell.web.session.exceptions.SessionNotFoundException;
+import uk.co.blackcell.web.session.exceptions.SessionNotPersistedException;
+import uk.co.blackcell.web.session.exceptions.SessionTechnicalException;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
@@ -33,7 +33,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;
 import java.util.Optional;
 
-import static uk.gov.dvla.f2d.web.session.constants.SessionConstants.*;
+import static uk.co.blackcell.web.session.constants.SessionConstants.*;
 
 class RedisSessionManagerEncryptedImpl extends AbstractSessionFacade implements ISessionFacade
 {
